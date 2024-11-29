@@ -1,0 +1,28 @@
+@media (min-width : 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
+.custome-texte{
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.custome-text{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.486);
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0.3s;
+}
+.card:hover{
+    transform: translateY(10px);
+    transform: translate3d(20px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.473);
+}
